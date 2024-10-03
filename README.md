@@ -66,8 +66,12 @@
 </p>
 <p><strong>Step 8: Configure SLA Plans</strong>: In the Admin Panel, go to <strong>Manage -> SLA</strong> and create service level agreements (SLAs) for different severity levels. For example, create SLAs such as "Sev-A" with a 1-hour grace period and 24/7 availability, "Sev-B" with a 4-hour grace period, and "Sev-C" with an 8-hour grace period limited to business hours.</p>
 
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0fd3e42d-8a2a-4d6b-9305-b0d38622f5f9" height="80%" width="80%" alt="Help Topics Configuration Image"/>
+  <img src="https://github.com/user-attachments/assets/efbfba86-15c0-49aa-a5a6-7aa4d044000f" height="80%" width="80%" alt="Help Topics Configuration Image"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cb06efcd-165f-4652-a44f-f4e49e8a3195" height="80%" width="80%" alt="Help Topics Configuration Image"/>
 </p>
 <p><strong>Step 9: Configure Help Topics</strong>: In the Admin Panel, go to <strong>Manage -> Help Topics</strong>. Define topics that users can select when creating tickets, such as "Business Critical Outage", "Personal Computer Issues", "Equipment Request", "Password Reset", and "Other". This helps categorize and streamline ticket handling.</p>
 
