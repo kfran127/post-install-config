@@ -6,30 +6,6 @@
 
 <p>This tutorial outlines the post-installation configuration of the open-source help desk ticketing system osTicket.</p>
 
-<h2>Environments and Technologies Used</h2>
-
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
-- PHP 7.3.8
-- MySQL 5.5.62
-- HeidiSQL
-- osTicket v1.15.8
-
-<h2>Operating Systems Used</h2>
-
-- Windows 10 (22H2)
-
-<h2>List of Prerequisites</h2>
-
-<ul>
-  <li><strong>Azure Virtual Machine:</strong> A Windows 10 VM with 4 vCPUs created in Microsoft Azure.</li>
-  <li><strong>Remote Desktop Connection (RDP):</strong> Ability to connect to the VM using Remote Desktop.</li>
-  <li><strong>Internet Information Services (IIS):</strong> IIS installed and configured on the Windows 10 VM to serve web applications.</li>
-  <li><strong>PHP and PHP Manager:</strong> PHP installed and configured with PHP Manager on IIS to support osTicket.</li>
-  <li><strong>MySQL Database:</strong> MySQL installed to store osTicket data.</li>
-  <li><strong>osTicket Installation:</strong> osTicket installed and functioning on the server.</li>
-</ul>
 
 <h2>Post-Installation Configuration Steps</h2>
 
@@ -48,25 +24,35 @@
 </p>
 <p><strong>Step 2: Configure Roles</strong>: In the Admin Panel, navigate to <strong>Agents -> Roles</strong>. Create and configure roles for grouping permissions. For example, you can create a role called "Supreme Admin" to have full control over the helpdesk system.</p>
 
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a7a95f18-4dc9-403c-9f36-9e9a116d261b" height="80%" width="80%" alt="Departments Configuration Image"/>
+  <img src="https://github.com/user-attachments/assets/bfbeb953-2e5a-45a6-80a5-afae5d1ed071" height="80%" width="80%" alt="Departments Configuration Image"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cdc62b6c-f5b1-4ede-952e-9803cf9bd62c" height="80%" width="80%" alt="Departments Configuration Image"/>
 </p>
 <p><strong>Step 3: Configure Departments</strong>: In the Admin Panel, go to <strong>Agents -> Departments</strong> and create departments such as "SysAdmins", "Networking", or "Help Desk" to manage ticket visibility and agent assignment within the system.</p>
 
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/26ebc883-a71a-480f-8a0e-b2a4b780bf43" height="80%" width="80%" alt="Teams Configuration Image"/>
+  <img src="https://github.com/user-attachments/assets/9d18a60e-1edd-44de-9d68-a9807f6f109d" height="80%" width="80%" alt="Teams Configuration Image"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6e5dbf65-7b24-4fd3-86d9-9f456eb84616" height="80%" width="80%" alt="Teams Configuration Image"/>
 </p>
 <p><strong>Step 4: Configure Teams</strong>: In the Admin Panel, go to <strong>Agents -> Teams</strong>. You can pull agents from different departments and assign them to specific teams. For instance, you might create an "Online Banking" team consisting of agents from both the "Support" and "SysAdmins" departments.</p>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0abf4fc1-d89b-485b-afd4-321f31cd458f" height="80%" width="80%" alt="User Settings Image"/>
-</p>
-<p><strong>Step 5: Configure User Settings</strong>: In the Admin Panel, navigate to <strong>Settings -> User Settings</strong>. If you want to require registration and login for users to create tickets, uncheck the option for "Allow anyone to create tickets". This forces users to register before submitting tickets.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ce41ebb2-699f-4e7a-bbe9-acbd11487bfd" height="80%" width="80%" alt="Agents Configuration Image"/>
+  <img src="https://github.com/user-attachments/assets/0abafec6-eaab-434f-8639-614394275bac" height="80%" width="80%" alt="User Settings Image"/>
 </p>
-<p><strong>Step 6: Configure Agents</strong>: In the Admin Panel, go to <strong>Agents -> Add New</strong> to add workers who will handle the tickets. For instance, you can create agents like "Jane" assigned to the "SysAdmins" department and "John" assigned to the "Support" department.</p>
+<p><strong>Step 5: Configure User Settings</strong>: In the Admin Panel, navigate to <strong>Settings -> User Settings</strong>. If you uncheck "Require registration and login to create tickets", anyone will be able to submit a ticket without creating an account. If this option is checked, users will need to register and log in to submit tickets.</p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/af6b9d63-5123-44b8-b0c4-5b954d721f98" height="80%" width="80%" alt="Agents Configuration Image"/>
+</p>
+<p><strong>Step 6: Configure Agents</strong>: In the Admin Panel, go to <strong>Agents -> Add New</strong> to add workers who will handle the tickets. For instance, you can create agents like "David" assigned to the "SysAdmins" department and "Pablo" assigned to the "Support" department.</p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/54534046-bc10-4f61-92ae-3e4d5affe598" height="80%" width="80%" alt="Users Configuration Image"/>
