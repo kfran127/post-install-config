@@ -54,13 +54,15 @@
 </p>
 <p><strong>Step 6: Configure Agents</strong>: In the Admin Panel, go to <strong>Agents -> Add New</strong> to add workers who will handle the tickets. For instance, you can create agents like "David" assigned to the "SysAdmins" department and "Pablo" assigned to the "Support" department.</p>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/54534046-bc10-4f61-92ae-3e4d5affe598" height="80%" width="80%" alt="Users Configuration Image"/>
-</p>
-<p><strong>Step 7: Configure Users</strong>: In the Agent Panel, navigate to <strong>Users -> Add New</strong>. Add customers who will submit tickets, such as "Karen" and "Ken". This helps you manage and track customer inquiries.</p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/929a4022-5260-46b5-ade8-f3ec6798c850" height="80%" width="80%" alt="SLA Configuration Image"/>
+  <img src="https://github.com/user-attachments/assets/7c41daa4-77ae-49a1-a432-d352c4e83e46" height="80%" width="80%" alt="Users Configuration Image"/>
+</p>
+<p><strong>Step 7: Configure Users</strong>: In the Agent Panel, navigate to <strong>Users -> Add New</strong>. Add customers who will submit tickets, such as "Daisy" and "John". This helps you manage and track customer inquiries.</p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/59363d84-1d5b-4948-a75a-a8a761c2e1f4" height="80%" width="80%" alt="SLA Configuration Image"/>
 </p>
 <p><strong>Step 8: Configure SLA Plans</strong>: In the Admin Panel, go to <strong>Manage -> SLA</strong> and create service level agreements (SLAs) for different severity levels. For example, create SLAs such as "Sev-A" with a 1-hour grace period and 24/7 availability, "Sev-B" with a 4-hour grace period, and "Sev-C" with an 8-hour grace period limited to business hours.</p>
 
