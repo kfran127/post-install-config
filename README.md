@@ -74,4 +74,4 @@
 
 <p><strong>Step 9: Configure Help Topics</strong>: To streamline ticket categorization, I created help topics in <strong>Manage -> Help Topics</strong>. Some of the help topics I set up included "Business Critical Outage," "Personal Computer Issues," "Equipment Request," "Password Reset," and "Other."</p>
 
-<p><strong>End Result</strong>: Congratulations! I have successfully completed the post-installation configuration of osTicket. My helpdesk is now fully set up to manage tickets efficiently, handle users, and provide excellent support. These configurations help improve the organization and tracking of tickets, ultimately enhancing the overall support workflow.</p>
+<p><strong>End Result</strong>: I have successfully completed the post-installation configuration of osTicket. My helpdesk is now fully set up to manage tickets efficiently, handle users, and provide excellent support. These configurations help improve the organization and tracking of tickets, ultimately enhancing the overall support workflow.</p>
